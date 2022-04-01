@@ -1,0 +1,35 @@
+.navbar * {
+    display: inline;
+}
+
+.navbar {
+    background-color: rgb(173, 251, 253);
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    position:fixed;
+}
+
+.navbar li {
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.Home{
+    padding-top: 100px;
+}
+
+.About{
+    padding-top: 100px;
+}
+
+.Portfolio {
+    padding-top: 50px;
+}
+
+.Welcome {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
