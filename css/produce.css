@@ -1,3 +1,4 @@
+/*
 .navbar * {
     display: inline;
 }
@@ -32,4 +33,96 @@
 .Welcome {
     padding-top: 50px;
     padding-bottom: 100px;
+}
+*/
+
+.container{
+    width: 1200px;
+    margin-left: 320px;
+    margin-right: 0px;
+}
+#header{
+    width: 340px;
+    height: 30px;
+    background-color: rgb(77, 143, 235);
+    color: white;
+    font-size: larger;
+    font-style: bold;
+    position:fixed;
+    text-align: center;
+}
+h1{
+    color: #000;
+    text-align: left;
+    margin-left: 20px;
+    text-shadow: 5px 5px #eee;
+}
+.title{
+    margin-left:20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#sidebar{
+    background-color: #c6edfa;
+    box-sizing: border-box;
+    width: 340px;
+    padding: 150px 30px;
+    overflow: visible;
+    float:left;
+    margin-top: 0px;
+    box-sizing:border-box;
+    display: full;
+    justify-content: center;
+    position:fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+#logo{
+    text-align: center;
+    color: #000;
+    margin-left: 20px;
+    text-shadow: 5px 5px #eee;
+    font-size:32px;
+}
+#profile{
+    margin: 0 auto;
+    width: 230px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 50px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    font-size: large;
+    font-family: 'Tinos', serif;
+}
+
+#main, #about_me, #project, #contact{
+    float: left;
+    padding: 100px;
+    box-sizing: border-box;
+    width: 100%; height: 850px;
+    background-color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.psa{
+    width: 90%;
+    border-radius: 20%;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+#sys{
+    margin-top: 10px;
+}
+.float-wrap{
+    overflow: hidden;
 }
