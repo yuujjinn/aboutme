@@ -13,7 +13,9 @@ hr{
     padding-bottom: 150px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-right: 100px;
     float:left;
+    flex-direction: column;
     display: full;
     position:fixed;
     text-align: center;
@@ -44,12 +46,16 @@ ul{
     padding-right: 100px;
     padding-left: 100px;
     box-sizing: border-box;
-    width: 100%;
+    width: 1200px;
     height: 850px;
     background-color: rgb(250, 254, 255);
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(12, 41, 70);
+    margin-left: 300px;
+}
+.float-wrap{
+    overflow: hidden;
 }
 .infoI_name{
     width: 50px;
